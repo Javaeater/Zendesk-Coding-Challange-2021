@@ -1,0 +1,5 @@
+pip==21.2.1
+colorama==0.4.4
+requests==2.26.0
+python-dateutil==2.8.2
+zenpy==2.0.24

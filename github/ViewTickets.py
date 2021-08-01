@@ -1,7 +1,6 @@
 import Menus
 import TicketFunctions
-from colorama import Fore, Back, Style
-from colorama import init
+from colorama import Fore, Style, init
 
 #main function
 if __name__ == '__main__':

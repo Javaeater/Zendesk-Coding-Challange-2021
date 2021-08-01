@@ -47,6 +47,7 @@ def displayMenu():
     menuSelect = input()
     return(menuSelect)
 
+#Ask to view the next page of tickets
 def askPage():
     print(Fore.GREEN)
     nP = input(
