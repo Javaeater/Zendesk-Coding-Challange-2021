@@ -12,6 +12,12 @@ Also make sure you are using pip 21.2.1 or newer.
 
 Clone the repository to your active directory with the command ``` git clone https://github.com/Javaeater/Zendesk-Coding-Challange-2021 ```
 
-Then go to the github file inside the repository ``` cd github ```
+Then go to the github file inside the repository using ``` cd github ```
 
-Install the required packaged using ``` pip install -r requirements.txt ```
+Install the required packages using ``` pip install -r requirements.txt ```
+
+## Running
+
+Please navigate to the github folder using ```cd github ```
+
+Run ```Python -m ViewTickets``` 
