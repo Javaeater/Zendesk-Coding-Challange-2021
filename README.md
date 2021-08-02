@@ -24,11 +24,11 @@ creds.py contains base64 encrypted strings for the Username, API token and subdo
 
 To add or edit authentication info please change the strings in:
 
-``` base64_email ``` to the correct base64 encrypted email address string.
+- ``` base64_email ``` to the correct base64 encrypted email address string.
 
-``` base64_token ``` to the correct base64 encrypted token string.
+- ``` base64_token ``` to the correct base64 encrypted token string.
 
-``` base64_subD ``` to the correct base64 encrypted subdomain string.
+- ``` base64_subD ``` to the correct base64 encrypted subdomain string.
 
 
 ## Running
