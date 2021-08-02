@@ -31,6 +31,8 @@ Change the base64 messages in the creds.py file to match the Email, Token, and s
 
 Run ```Python -m test_functions.py``` 
 
+Follow all instructions written in white text.
+
 ## How it Works
 ``` Menus.py ``` Contains functions to create text and menu displays.
 
