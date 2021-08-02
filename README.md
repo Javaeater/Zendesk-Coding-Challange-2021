@@ -3,7 +3,7 @@ This is a simple ticket viewer coded for the Zendesk Cosing Challange 2021 for t
 
 The goal of this project was to create a ticket viewing application that connects to the Zendesk API. Users are allowd to view a single ticket on their account as well as all the tickets on their account.
 
-Made by Cesser Jackson Aug 2021
+Made by Cesser Jackson in Aug 2021
 
 ## Installation MacOS/Windows
 Please make sure you have Python 3.9.6 or newer.
