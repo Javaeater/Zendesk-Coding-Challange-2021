@@ -1,5 +1,6 @@
-
 from colorama import Fore, Style, init
+
+#make sure colorama will work on device
 init(convert=True)
 
 #First start menu
@@ -7,7 +8,8 @@ def startTicketView():
     start = False
 
     while start == False:
-        o1 = input("Type 'op' to view the Ticket options menu or 'qt' to exit.\n")
+        print(Fore.YELLOW)
+        o1 = input("Welcome to the Zendesk Ticket Viewer. Type 'op' to start the program and view the Ticket options menu or type 'qt' to exit.\n")
 
         if o1.lower() == 'op' :
             start = True
@@ -23,7 +25,7 @@ def startTicketView():
 
 #Ask user to return to ticket menu
 def returnToTicketMenu():
-    print(Fore.RESET)
+    print(Fore.YELLOW)
     tikM = input( "Would you like to return to the Ticket Menu? Type 'y' to continue to the menu or type 'qt' to exit the program.\n")
 
     if tikM.lower() == 'y':
