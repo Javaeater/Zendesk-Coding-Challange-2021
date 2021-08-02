@@ -16,6 +16,21 @@ Then go to the github file inside the repository using ``` cd github ```
 
 Install the required packages using ``` pip install -r requirements.txt ```
 
+## Authentication
+
+The TicketFunctions.py file takes in credentials from the creds.py file.
+
+creds.py contains base64 encrypted strings for the Username, API token and subdomain.
+
+To add or edit authentication info please change the strings in:
+
+``` base64_email ``` to the correct base64 encrypted email address string.
+
+``` base64_token ``` to the correct base64 encrypted token string.
+
+``` base64_subD ``` to the correct base64 encrypted subdomain string.
+
+
 ## Running
 
 Please navigate to the github folder using ```cd github ```
