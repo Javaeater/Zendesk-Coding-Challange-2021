@@ -35,14 +35,10 @@ To add or edit authentication info please change the strings in:
 
 Please navigate to the github folder using ```cd github ```
 
-Change the base64 messages in the creds.py file to match the Email, Token, and subdomain. Enter this information as a base64 encryped string.
-
 Run ```Python -m ViewTickets``` 
 
 ## Running Tests
 Please navigate to the github folder using ```cd github ```
-
-Change the base64 messages in the creds.py file to match the Email, Token, and subdomain. Enter this information as a base64 encryped string.
 
 Run ```Python -m test_functions.py``` 
 
