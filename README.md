@@ -1,7 +1,7 @@
 # Welcome to Zendesk Ticket Viewer
-This is a simple ticket viewer coded for the Zendesk Cosing Challange 2021 for the Summer Co-Op position.
+This is a simple ticket viewer coded for the Zendesk Coding Challange 2021 for the Summer Co-Op position.
 
-The goal of this project was to create a ticket viewing application that connects to the Zendesk API. Users are allowd to view a single ticket on their account as well as all the tickets on their account.
+The goal of this project was to create a ticket viewing application that connects to the Zendesk API. Users are allowed to view a single ticket on their account as well as all the tickets on their account.
 
 Made by Cesser Jackson in Aug 2021
 
@@ -9,7 +9,7 @@ Made by Cesser Jackson in Aug 2021
 Please make sure you have Python 3.9.6 or newer.
  - You can install the newest version of python here: https://www.python.org/downloads/
 
-Also make sure you are using pip 21.2.1 or newer.
+Also, make sure you are using pip 21.2.1 or newer.
  - If you are not sure you have pip installed you can use the command ``` python -m ensurepip --upgrade ```
  - If you have pip installed but not the correct version please use ``` python -m pip install --upgrade pip ```
 
@@ -23,7 +23,7 @@ Install the required packages using ``` pip install -r requirements.txt ```
 
 The TicketFunctions.py file takes in credentials from the creds.py file.
 
-creds.py contains base64 encrypted strings for the Username, API token and subdomain.
+creds.py contains base64 encrypted strings for the Username, API token, and subdomain.
 
 To add or edit authentication info please change the strings in:
 
@@ -52,7 +52,7 @@ Follow all instructions written in white text.
 
 ``` TicketFunctions.py ``` Contains functions to handle viewing and processing ticket information.
 
-``` ViewTickets.py ``` Main file handels the program as it runs.
+``` ViewTickets.py ``` Main file handles the program as it runs.
 
 ``` creds.py ``` Holds Crediental information in base64 format and decodes it to the correct string.
 
