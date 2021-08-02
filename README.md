@@ -20,4 +20,17 @@ Install the required packages using ``` pip install -r requirements.txt ```
 
 Please navigate to the github folder using ```cd github ```
 
+Change the base64 messages in the creds.py file to match the Email, Token, and subdomain. Enter this information as a base64 encryped string.
+
 Run ```Python -m ViewTickets``` 
+
+## How it Works
+``` Menus.py ``` Contains functions to create text and menu displays.
+
+``` TicketFunctions.py ``` Contains functions to handle viewing and processing ticket information.
+
+``` ViewTickets.py ``` Main file handels the program as it runs.
+
+``` creds.py ``` Holds Crediental information in base64 format and decodes it to the correct string.
+
+``` test_functions.py ``` Runs unittests.
