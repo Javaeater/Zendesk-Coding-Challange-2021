@@ -2,7 +2,7 @@
 This is a simple ticket viewer coded for the Zendesk Cosing Challange 2021 for the Summer Co-Op position.
 
 The goal of this project was to create a ticket viewing application that connects to the Zendesk API. Users are allowd to view a single ticket on their account as well as all the tickets on their account.
-## Installation
+## Installation MacOS/Windows
 Please make sure you have Python 3.9.6 or newer.
  - You can install the newest version of python here: https://www.python.org/downloads/
 
@@ -23,6 +23,13 @@ Please navigate to the github folder using ```cd github ```
 Change the base64 messages in the creds.py file to match the Email, Token, and subdomain. Enter this information as a base64 encryped string.
 
 Run ```Python -m ViewTickets``` 
+
+## Running Tests
+Please navigate to the github folder using ```cd github ```
+
+Change the base64 messages in the creds.py file to match the Email, Token, and subdomain. Enter this information as a base64 encryped string.
+
+Run ```Python -m test_functions.py``` 
 
 ## How it Works
 ``` Menus.py ``` Contains functions to create text and menu displays.
