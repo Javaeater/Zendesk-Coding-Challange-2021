@@ -8,6 +8,8 @@ Made by Cesser Jackson in Aug 2021
 ## Installation MacOS/Windows
 Please make sure you have Python 3.9.6 or newer.
  - You can install the newest version of python here: https://www.python.org/downloads/
+ - 
+ - If the ``` python ``` command is not working please use ``` python3 ``` instead for any use of ``` python ``` in this documentation.
 
 Also, make sure you are using pip 21.2.1 or newer.
  - If you are not sure you have pip installed you can use the command ``` python -m ensurepip --upgrade ```
