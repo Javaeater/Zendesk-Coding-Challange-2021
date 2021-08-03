@@ -67,5 +67,5 @@ This program uses colroama to display text in ANSI color to the CLI.
 
 - If colors are not displayed on MacOs terminal make sure your terminal has the correct settings to display ANSI color. If you need help doing this here is a link to someone explaining it on stack overflow https://stackoverflow.com/questions/1550288/os-x-terminal-colors.
 
-- It should not cause an issue if using a non supported device. Text may just print in single color
+- It should not cause a program issue if using a non supported device. Text may just print in single color
 
