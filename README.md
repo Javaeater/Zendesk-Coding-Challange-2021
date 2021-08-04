@@ -49,7 +49,7 @@ Please navigate to the github folder using ```cd github ```
 
 Run ```Python -m test_functions.py``` 
 
-Follow all instructions written in white text.
+Follow all instructions written at beginning of text.
 
 ## How it Works
 ``` Menus.py ``` Contains functions to create text and menu displays.
